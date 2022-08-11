@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  gap: 1.5em;
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* .form {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+} */

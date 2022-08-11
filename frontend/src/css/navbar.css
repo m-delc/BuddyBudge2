@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+/* some of this is commented out so that it works with <Paper> */
+.header {
+  display: flex;
+  font-size: 18px;
+  /* margin: auto;
+  margin-top: 20px;
+  background-color: inherit;
+  border-radius: 5px;
+  padding: 0.7em;
+  width: 90%; */
+}
+
+.header a {
+  text-decoration: none;
+  float: left;
+  padding: 0.7em;
+  color: black
+}
+
+
+.header a:visited {
+  color: inherit;
+}
+/* for links in actual navbar */
+.span1 {
+  margin-left: 15px;
+  display: inline-flex;
+  /* padding-inline: .5em; */
+}
+
+.span2 {
+  margin-left: auto;
+  text-decoration: none !important;
+}
+/* for  User dropdown Menu Links */
+.span3 {
+  text-decoration: none;
+  color: inherit;
+  /* display: inline-flex; */
+  display: grid;
+}
+/* a.span3 {
+  display: flex-column;
+} */

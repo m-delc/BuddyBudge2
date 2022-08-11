@@ -1,0 +1,114 @@
+.grid {
+  display: grid;
+  gap: 1.5em;
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@media (min-width: 50em) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.header-top {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.header1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form1 {
+  border-radius: 0.4em;
+  padding: 2em;
+  background-color: rgb(110, 136, 151);
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin: 2em;
+  margin-top: 3.3em;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.input1,
+.input2,
+.input3 {
+  border-color: aqua;
+  color: black;
+  margin: 0.4em;
+  background-color: inherit;
+  padding: 0.4em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.button1 {
+  margin: 1em;
+  background-color: inherit;
+  padding: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  /* width: 65%; */
+}
+
+.header2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form2 {
+  background-color: rgb(160, 178, 190);
+  border-radius: 0.4em;
+  padding: 2em;
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  margin: 2em;
+  margin-top: 3.3em;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header3 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.form3 {
+  border-radius: 0.4em;
+  padding: 2em;
+  background-color: rgb(110, 168, 190);
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin: 2em;
+  margin-top: 3.3em;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.div-delete-profile {
+  text-align: center;
+  display: grid;
+  grid-column-start: span 2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+}

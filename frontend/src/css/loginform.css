@@ -1,0 +1,32 @@
+.test1 {
+  width: 27.5ch;
+  /* margin: 0.5em; */
+}
+
+/* .btn-login {
+    margin-right: 5px;
+} */
+
+/* .test2 {
+  position: absolute;
+} */
+
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* .forms {
+  align-items: center;
+} */
+
+.div-form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-div {
+  margin-top: 0.9em;
+}

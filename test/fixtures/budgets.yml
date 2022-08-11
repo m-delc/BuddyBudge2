@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  person_id: 1
+  weekOnegoals: 1
+  weekTwoGoals: 1
+  weekThreeGoals: 1
+  weekFourGoals: 1
+  weekFiveGoals: 1
+  weekSixGoals: 1
+  weekOneSavings: 1
+  weekTwoSavings: 1
+  weekThreeSavings: 1
+  weekFourSavings: 1
+  weekFiveSavings: 1
+  weekSixSavings: 1
+
+two:
+  user_id: 1
+  person_id: 1
+  weekOnegoals: 1
+  weekTwoGoals: 1
+  weekThreeGoals: 1
+  weekFourGoals: 1
+  weekFiveGoals: 1
+  weekSixGoals: 1
+  weekOneSavings: 1
+  weekTwoSavings: 1
+  weekThreeSavings: 1
+  weekFourSavings: 1
+  weekFiveSavings: 1
+  weekSixSavings: 1
