@@ -70,7 +70,7 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   # config.action_mailer.default_options = {from: Rails.application.credentials.dig(:google_smtp, :email)}
-  config.action_mailer.default_url_options = {host: Rails.application.credentials.dig(:URL, :heroku), protocol: "https"}
+  config.action_mailer.default_url_options = {host: "mysterious-fortress-17802.herokuapp.com/", protocol: "https"}
   config.action_mailer.smtp_settings = {
     address:              'smtp.gmail.com',
     port:                 587,
@@ -81,6 +81,6 @@ Rails.application.configure do
     enable_starttls_auto: true,
     open_timeout:         5,
     read_timeout:         5}
-    
+
   
 end
